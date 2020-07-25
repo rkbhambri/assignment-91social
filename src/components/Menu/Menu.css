@@ -1,0 +1,42 @@
+
+.menu{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 20px;
+    font-size: 22px;
+}
+​
+.menu ul li{
+    width: 50%;
+    color: #000;
+    text-align: center;
+}
+​
+.menu ul li a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+}
+​
+.menu ul li a:hover:not(.active) {
+  background-color: #111;
+}
+​
+.active {
+  background-color: #4CAF50;
+}

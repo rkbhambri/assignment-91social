@@ -1,0 +1,12 @@
+
+.pagination {
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.pagination .page-number  {
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}

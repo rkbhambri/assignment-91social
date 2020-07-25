@@ -1,0 +1,12 @@
+
+.header {
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px 40px;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: #b4433c;
+    text-align: left;
+    color: #ccc;
+}
